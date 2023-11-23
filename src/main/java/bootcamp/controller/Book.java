@@ -1,4 +1,5 @@
 package bootcamp.controller;
 
-public record Book() {
+
+public record Book(String name) {
 }
