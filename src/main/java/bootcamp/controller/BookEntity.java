@@ -11,13 +11,13 @@ import jakarta.persistence.Table;
 public class BookEntity {
 
     @Id
-    Integer bookId;
+    Integer id;
 
     String name;
 
-    public BookEntity(Integer bookId,
+    public BookEntity(Integer id,
                       String name) {
-        this.bookId = bookId;
+        this.id = id;
         this.name = name;
     }
 

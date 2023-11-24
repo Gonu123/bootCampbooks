@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bootcamp.controller.HelloControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-24T07:36:41" hostname="0323LTPB0095880" time="0.005">
+  <properties/>
+  <testcase name="itShouldSayHello()" classname="bootcamp.controller.HelloControllerTest" time="0.005"/>
+  <system-out><![CDATA[2023-11-24T13:06:41.414+05:30  INFO 46642 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [bootcamp.controller.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-24T13:06:41.418+05:30  INFO 46642 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration bootcamp.controller.BookShopApplication for test class bootcamp.controller.HelloControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-24T13:06:41.432+05:30  INFO 46642 --- [    Test worker] b.controller.HelloControllerTest         : Starting HelloControllerTest using Java 17.0.9 with PID 46642 (started by gourav.sharma6 in /Users/gourav.sharma6/Documents/DevelopersBootCamp/bootCampbooks)
+2023-11-24T13:06:41.432+05:30  INFO 46642 --- [    Test worker] b.controller.HelloControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2023-11-24T13:06:41.537+05:30  INFO 46642 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-24T13:06:41.537+05:30  INFO 46642 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-24T13:06:41.538+05:30  INFO 46642 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-11-24T13:06:41.541+05:30  INFO 46642 --- [    Test worker] b.controller.HelloControllerTest         : Started HelloControllerTest in 0.121 seconds (process running for 1.825)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

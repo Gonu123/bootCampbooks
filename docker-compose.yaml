@@ -1,0 +1,21 @@
+version: "2"
+services:
+  book-demo:
+    image:
+      booktest1:latest
+    ports:
+      - "9090:9090"
+  postgres:
+    image: docker.io/postgres
+    restart: always
+    environment:
+      POSTGRES_USER: bookuser
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: bookdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
